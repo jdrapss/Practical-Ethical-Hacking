@@ -1,7 +1,7 @@
 #!/bin/python3
 
 # Goal is to be able to run python3 scanner.py <ip> and scan a designated port range and return the results
-
+# This tool is slower because it scans one port at a time and timesout after 1 second
 import sys
 import socket
 from datetime import datetime as dt
