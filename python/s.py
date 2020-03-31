@@ -1,5 +1,5 @@
 #!/bin/python3
-
+# This tool acts as a basic port scanner
 import socket
 
 HOST = '127.0.0.1'
