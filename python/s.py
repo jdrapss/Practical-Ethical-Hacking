@@ -1,5 +1,5 @@
 #!/bin/python3
-# This tool acts as a basic port scanner
+# Allows us to establish local connections and receive callbacks from a different socket
 import socket # Import allows us to import libraries not native to the base Python
 
 HOST = '127.0.0.1'
