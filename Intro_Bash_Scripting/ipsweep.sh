@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ "$1" == "" ]
+if [ "$1" == "" ] # If the input variable does not contain anything, then print "You forgot an IP address!
 then
 echo "You forgot an IP address!"
 echo "Syntax: ./ipsweep.sh <ip range>"
